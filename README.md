@@ -8,8 +8,6 @@ Este repositório contém uma aplicação simples em Go que imprime "Go Rocks!!"
 - [Pré-requisitos](#pré-requisitos)
 - [Baixando a Imagem Docker](#baixando-a-imagem-docker)
 - [Executando a Imagem Docker](#executando-a-imagem-docker)
-- [Usando Docker Compose](#usando-docker-compose)
-- [Verificação e Depuração](#verificação-e-depuração)
 - [Licença](#licença)
 
 ## Introdução
@@ -26,3 +24,15 @@ Para baixar a imagem Docker do Docker Hub, execute o seguinte comando no seu ter
 
 ```bash
 docker pull tvaditya/fullcycle
+
+## Executando a Imagem Docker
+Para executar a imagem Docker e ver a mensagem, use o seguinte comando:
+```bash
+docker run --rm tvaditya/fullcycle
+
+Que te retorna: Full Cycle Rocks!!
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+
